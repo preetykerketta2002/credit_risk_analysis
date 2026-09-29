@@ -1,4 +1,3 @@
-// models/Entity.js (Updated with Working Capital Days)
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
