@@ -5,7 +5,7 @@ require('dotenv').config();
 const sequelize = new Sequelize(
   process.env.DB_NAME || 'credit_risk_evaluator',
   process.env.DB_USER || 'root',
-  process.env.DB_PASS || 'password',
+  process.env.DB_PASS || 'root',
   {
     host: process.env.DB_HOST || 'localhost',
     port: process.env.DB_PORT || 3306,
