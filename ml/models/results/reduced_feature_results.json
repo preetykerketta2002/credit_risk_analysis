@@ -1,0 +1,104 @@
+{
+    "Logistic Regression": {
+        "folds": [
+            {
+                "fold": 1,
+                "accuracy": 0.8235,
+                "precision_macro": 0.875,
+                "recall_macro": 0.8783,
+                "f1_macro": 0.8745,
+                "high_risk_recall": 1.0
+            },
+            {
+                "fold": 2,
+                "accuracy": 0.7647,
+                "precision_macro": 0.8413,
+                "recall_macro": 0.8413,
+                "f1_macro": 0.8333,
+                "high_risk_recall": 1.0
+            },
+            {
+                "fold": 3,
+                "accuracy": 0.875,
+                "precision_macro": 0.7917,
+                "recall_macro": 0.9107,
+                "f1_macro": 0.8216,
+                "high_risk_recall": 1.0
+            }
+        ],
+        "overall": {
+            "accuracy": 0.82,
+            "precision_macro": 0.8007,
+            "recall_macro": 0.8755,
+            "f1_macro": 0.8306
+        }
+    },
+    "Decision Tree": {
+        "folds": [
+            {
+                "fold": 1,
+                "accuracy": 0.7647,
+                "precision_macro": 0.8413,
+                "recall_macro": 0.8413,
+                "f1_macro": 0.8333,
+                "high_risk_recall": 1.0
+            },
+            {
+                "fold": 2,
+                "accuracy": 0.8235,
+                "precision_macro": 0.8778,
+                "recall_macro": 0.8677,
+                "f1_macro": 0.8704,
+                "high_risk_recall": 1.0
+            },
+            {
+                "fold": 3,
+                "accuracy": 0.8125,
+                "precision_macro": 0.869,
+                "recall_macro": 0.869,
+                "f1_macro": 0.8667,
+                "high_risk_recall": 1.0
+            }
+        ],
+        "overall": {
+            "accuracy": 0.8,
+            "precision_macro": 0.8575,
+            "recall_macro": 0.8596,
+            "f1_macro": 0.8576
+        }
+    },
+    "Random Forest": {
+        "folds": [
+            {
+                "fold": 1,
+                "accuracy": 0.7647,
+                "precision_macro": 0.519,
+                "recall_macro": 0.5556,
+                "f1_macro": 0.5245,
+                "high_risk_recall": 0.0
+            },
+            {
+                "fold": 2,
+                "accuracy": 0.7647,
+                "precision_macro": 0.519,
+                "recall_macro": 0.5556,
+                "f1_macro": 0.5245,
+                "high_risk_recall": 0.0
+            },
+            {
+                "fold": 3,
+                "accuracy": 0.9375,
+                "precision_macro": 0.963,
+                "recall_macro": 0.9524,
+                "f1_macro": 0.9548,
+                "high_risk_recall": 1.0
+            }
+        ],
+        "overall": {
+            "accuracy": 0.82,
+            "precision_macro": 0.8796,
+            "recall_macro": 0.685,
+            "f1_macro": 0.7225
+        }
+    }
+}
